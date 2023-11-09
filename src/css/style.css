@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* menu */
+.navbar {
+    background-color: #5cdb95 !important;
+    padding: 1% 3% 1% 3%;
+}
+
+.nav-link {
+    color: #05386b;
+}
+
+.btn {
+    background-color: #05386b;
+    color: #5cdb95;
+    border: none;
+}
+
+.btn:hover {
+    transition: .3s ease-in-out;
+    background-color: #0e4b88;
+    color: #5cdb95;
+    border: none;
+}
+/* end menu */
+
+/* banner */
+.carousel-item {
+    position: relative;
+}
+
+.overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #05386b7e; /* Cor vermelha com 50% de opacidade */
+    z-index: 1; /* Coloque a camada sobreposta acima da imagem (se necessário) */
+    pointer-events: none;
+}
+
+.carousel-caption h3 {
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+/* end banner */
+
