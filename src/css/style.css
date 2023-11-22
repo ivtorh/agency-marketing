@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
 }
 
 /* menu */
@@ -58,13 +61,19 @@
 .img-parceria {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 .img {
     justify-content: center;
+    text-align: center;
+    filter: grayscale(100%);
 }
 
-.img img {
-    height: 6vh;
+.img:hover {
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    filter: none;
 }
 /* end parcerias */
