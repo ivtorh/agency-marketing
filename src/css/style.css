@@ -77,3 +77,21 @@
     filter: none;
 }
 /* end parcerias */
+
+/* trabalhos */
+.sobre {
+    margin-top: 5%;
+}
+
+.sobre h4 {
+    margin: 0;
+    color: #05386b;
+}
+
+.line {
+    width: 35px;
+    height: 3px;
+    background-color: #5cdb95;
+    margin-left: -18%;
+}
+/* end trabalhos */
