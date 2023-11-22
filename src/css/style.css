@@ -54,3 +54,17 @@
 
 /* end banner */
 
+/* parcerias */
+.img-parceria {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    justify-content: center;
+}
+
+.img img {
+    height: 6vh;
+}
+/* end parcerias */
