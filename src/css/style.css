@@ -94,4 +94,13 @@
     background-color: #5cdb95;
     margin-left: -18%;
 }
+
+.about {
+    background: url(../img/empresa.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
 /* end trabalhos */
